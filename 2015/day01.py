@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-def get_floor(chars):
+def get_floor(chars: str) -> int:
     floor = 0
     for char in chars:
         if char == "(":
@@ -11,7 +11,7 @@ def get_floor(chars):
     return floor
 
 
-def get_basement_position(chars):
+def get_basement_position(chars: str) -> int:
     floor = 0
     for n, char in enumerate(chars):
         if char == "(":
