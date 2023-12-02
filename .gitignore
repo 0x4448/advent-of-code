@@ -133,3 +133,4 @@ dmypy.json
 
 # Advent of Code
 inputs/
+input.txt
